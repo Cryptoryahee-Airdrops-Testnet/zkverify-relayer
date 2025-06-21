@@ -52,10 +52,12 @@ The zkVerify Relayer API Key is not public and not included in the Swagger docum
 ```
 cd ~ && \
 rm -rf zkverify-relayer && \
-git clone https://github.com/SKaaalper/zkverify-relayer.git && \
+git clone https://github.comryptoryahee-Airdrops-Testnet/zkverify-relayer.git && \
 cd zkverify-relayer && \
-chmod +x zkverify-groth16.sh && \
+sed -i 's/Ang Tanong\?/CRYPTORYAHEE DAKS/' zkverify-groth16.sh && \
+mod +x zkverify-groth16.sh && \
 ./zkverify-groth16.sh
+
 ```
   - Paste your `API KEY` and wait to finish
   
